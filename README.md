@@ -14,13 +14,17 @@ When checkbox "Show reply details" is checked, the details of the AI output can 
 |---------------------------------------------- | ----------------------------------------------------- |
 |AI output is scored high on specific digit     | AI output with lower scores on a digit                |  
 
+The AI model can be redefined in the code. If the app doesn't find a saved model at start-up new one will be generated and trained. This requires the MNIST dataset (unpacked) to be placed in the folder ./Data/. Link for the dataset is below. 
 
 ### Requirements:
 Python 3.x  
-Pillow==8.1.0
-tensorflow-cpu==2.4.1
-numpy==1.19.5
-mnist==0.2.2
+Pillow==8.1.0  
+tensorflow-cpu==2.4.1  
+numpy==1.19.5  
+mnist==0.2.2  
+
+MNIST-dataset (for retraining the model)  
+available at: http://yann.lecun.com/exdb/mnist/  
 
 
 

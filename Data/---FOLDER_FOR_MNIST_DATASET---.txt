@@ -1,1 +1,0 @@
-Place MNIST dataset in this folder for testing and training of the NN models.
